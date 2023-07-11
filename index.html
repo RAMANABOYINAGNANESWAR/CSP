@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Drink Awareness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gantari&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family:  gantari;
+        }
+        nav {
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+            background-color: rgb(255, 255, 255);
+            height: 70px;
+            margin-bottom: 25px;
+            position: sticky;
+            z-index: 0.4;
+        }
+
+        .nav-links li {
+            display: inline-block;
+            margin-left: 35px;
+            font-size: 50%;
+            margin-left: 160px;
+        }
+
+        .nav-links a {
+            color: rgb(14, 13, 13);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            text-align: left;
+            font-size: 19px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .nav-links a:hover {
+            color: rgb(93, 4, 247);
+            opacity: 100;
+        }
+        .img-cont img{
+            position: absolute;
+            height: 84vh;
+            width: 100%;
+            object-fit: cover;
+        }
+        .text-cont,.intro-cont{
+            position: relative;
+            /* top: 15vh;
+            left: 5vw; */
+            padding: 2rem;
+            max-width: 40vw;
+        }
+        .text-cont h1{
+            /* text-shadow: 2px 2px 4px rgba(28, 20, 20, 0.938); */
+            font-size: 5rem;
+        }
+        .text-cont h3{
+            /* text-shadow: 2px 2px 4px rgba(28, 20, 20, 0.938); */
+            font-size: 3rem;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-links" style="margin-top: 20px;">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="effects.html">Effects</a></li>
+            <li><a href="alternatives.html">Alternatives</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="home">
+            <div class="img-cont">
+                <img src="test2.jpg" alt="img">
+            </div>
+            <div class="text-cont">
+                <h1>SOFT DRINKS AWARENESS</h1>
+                <h3>-Understanding the Effects of Soft Drinks<span style="color: white;"> on</span> Human Health</h3>
+            </div>
+            <!-- <div class="intro-cont">
+                <h2>A Community Service Project by</h2>
+                <h3>R. GNANESHWAR</h3>
+            </div> -->
+        </section>
+    </main>
+</body>
+
+</html>
